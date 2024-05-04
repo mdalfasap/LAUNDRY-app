@@ -1,0 +1,62 @@
+body{
+  background-color: #1FACF3;
+}
+.container {
+  font-family: Arial, sans-serif;
+}
+
+.col-md-6 {
+  padding-top: 70px;
+ 
+}
+
+h1{
+  font-size: bold 53px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  color: #FFFFFF;
+ 
+
+}
+
+input{
+  display: flex;
+  justify-content: center;
+  border-radius: 140px;
+  border: none;
+  margin-bottom: 20px;
+  width: 333px;
+  height: 64px;
+  display:flex;
+  text-align:center;
+  color: #8391A1;
+  outline: none;
+   
+}
+p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+ 
+
+.btn-primary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 140px;
+  background-color: #FFFFFF;
+  color: #007bff;
+  font-size: 16px;
+  cursor: pointer;
+  width: 333px;
+  height: 64px;
+
+}
+
+  
+
+.LoremText{
+    color:#FFFFFF;
+  font-weight: 28;
+}
