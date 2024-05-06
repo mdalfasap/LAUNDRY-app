@@ -110,7 +110,6 @@ const sendOtpEmail = async (userEmail) => {
       }
       return otp;
     }
-
     let config = {
       service: "gmail",
       auth: {
@@ -220,10 +219,10 @@ export async function login(req, res) {
       .send({ error: error.message || "Internal Server Error" });
   }
 }
+
 export async function verifyOtp(req, res) {
   try {
     const { verificationCode  } = req.body;
-
     if (!verificationCode ) {
       return res
         .status(400)
@@ -259,7 +258,7 @@ export async function verifyOtp(req, res) {
 // export async function emailverifyOtp(req, res) {
 //   const email = req.body.email;
 //   const code = req.body.code;
-
+     
 //   if (!email || !code) {
 //     return res.status(400).send("Email address and verification code are required");
 //   }
